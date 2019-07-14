@@ -3,6 +3,9 @@ This section provides details for each class and property defined by PhySci.
 <div id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
+	  <li>
+         <a href="#Article" title="http://purl.org/ontology/bibo/Article">Article</a>
+      </li>
       <li>
          <a href="#Assumption" title="https://w3id.org/skgo/phy#Assumption">Assumption</a>
       </li>
@@ -60,6 +63,12 @@ This section provides details for each class and property defined by PhySci.
       <li>
          <a href="#Principle" title="https://w3id.org/skgo/phy#Principle">Principle</a>
       </li>
+	  <li>
+         <a href="#Publication" title="http://ns.nature.com/terms/Publication">Publication</a>
+      </li>
+	  <li>
+         <a href="#Publisher" title="http://ns.nature.com/terms/Publisher">Publisher</a>
+   </li>
       <li>
          <a href="#ResearchWork" title="https://w3id.org/skgo/phy#ResearchWork">ResearchWork</a>
       </li>
@@ -103,6 +112,29 @@ This section provides details for each class and property defined by PhySci.
          <a href="#Wave" title="https://w3id.org/skgo/phy#Wave">Wave</a>
       </li>
    </ul>
+      <div class="entity" id="Article">
+      <h3>Article<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/ontology/bibo/Article</p>
+     <div class="comment">
+         <span class="markdown">A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine./span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#addressesResearchWork" title="https://w3id.org/skgo/phy#addressesResearchWork">addressesResearchWork</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+		  <dt>has members</dt>
+         <dd>
+            <a href="#A_Generalized_Theory_of_Gravitation" title="https://w3id.org/skgo/phy#A_Generalized_Theory_of_Gravitation">A_Generalized_Theory_of_Gravitation</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="Assumption">
       <h3>Assumption<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -121,6 +153,7 @@ This section provides details for each class and property defined by PhySci.
          </dd>
       </dl>
    </div>
+   
    <div class="entity" id="Case">
       <h3>Case<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -742,6 +775,40 @@ This section provides details for each class and property defined by PhySci.
             <sup class="type-ni" title="named individual">ni</sup>
          </dd>
       </dl>
+   </div>
+      <div class="entity" id="Publication">
+      <h3>Publication<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ns.nature.com/terms/Publication</p>
+      <div class="info">
+         <span class="markdown">The :Publication class groups together all individuals (or part of) created as the result of the publishing process. Note that we are not referring here to the physical artefacts, but just their abstract counterparts.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#formulate" title="https://w3id.org/skgo/phy#addressesResearchWork">addressesResearchWork</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#Black_Holes_and_Entropy" title="https://w3id.org/skgo/phy#Black_Holes_and_Entropy">Black_Holes_and_Entropy</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+     <div class="entity" id="Publisher">
+      <h3>Publisher<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ns.nature.com/terms/Publisher</p>
+      <div class="info">
+         <span class="markdown">The :Publisher class represents organizations involved in the publishing business.</span>
+      </div>
    </div>
    <div class="entity" id="ResearchWork">
       <h3>ResearchWork<sup class="type-c" title="class">c</sup>
@@ -1373,6 +1440,9 @@ This section provides details for each class and property defined by PhySci.
       </li>
       <li>
          <a href="#provideSolution" title="https://w3id.org/skgo/phy#provideSolution">provideSolution</a>
+      </li>
+	  <li>
+         <a href="#publisher" title="http://purl.org/dc/terms/publisher">publisher</a>
       </li>
       <li>
          <a href="#relyOnMeasurement" title="https://w3id.org/skgo/phy#relyOnMeasurement">relyOnMeasurement</a>
@@ -2602,6 +2672,27 @@ This section provides details for each class and property defined by PhySci.
             <dt>has range</dt>
             <dd>
                <a href="#Solution" title="https://w3id.org/skgo/phy#Solution">Solution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+	   <div class="entity" id="publisher">
+      <h3>publisher<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/publisher</p>
+      <div class="description">
+        
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Publication" title="http://ns.nature.com/terms/Publication">Publication</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Expression" title="http://purl.org/ontology/bibo/Article">Article</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
