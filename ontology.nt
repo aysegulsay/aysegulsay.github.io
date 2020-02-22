@@ -2360,12 +2360,20 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#American_Physical_Society> <http://ns.nature.com/terms/name> "American Physical Society"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/skgo/physci#American_Physical_Society> <http://www.w3.org/2000/01/rdf-schema#label> "American_Physical_Society"@en .
 # 
+# https://w3id.org/skgo/physci#B_P_Abbott
+<https://w3id.org/skgo/physci#B_P_Abbott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#B_P_Abbott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+# 
 # https://w3id.org/skgo/physci#Binary_Black_Hole_Merger
 <https://w3id.org/skgo/physci#Binary_Black_Hole_Merger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#Binary_Black_Hole_Merger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#ResearchWork> .
 <https://w3id.org/skgo/physci#Binary_Black_Hole_Merger> <https://w3id.org/skgo/physci#argueFormation> <https://w3id.org/skgo/physci#massive_black_holes> .
 <https://w3id.org/skgo/physci#Binary_Black_Hole_Merger> <https://w3id.org/skgo/physci#hasPurpose> "we report the first direct detection of gravitational waves and the first direct observation of a binary black hole system merging to form a single black hole."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/skgo/physci#Binary_Black_Hole_Merger> <http://www.w3.org/2000/01/rdf-schema#label> "Binary_Black_Hole_Merger"@en .
+# 
+# https://w3id.org/skgo/physci#Binary_Black_Holes
+<https://w3id.org/skgo/physci#Binary_Black_Holes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#Binary_Black_Holes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> .
 # 
 # https://w3id.org/skgo/physci#Black_Hole
 <https://w3id.org/skgo/physci#Black_Hole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2552,6 +2560,10 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#Elementary_Particle_Proton> <http://purl.org/dc/terms/description> "Mass particle such as a photon or a neutrino, electron and the muon"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/skgo/physci#Elementary_Particle_Proton> <http://www.w3.org/2000/01/rdf-schema#label> "Elementary_Particle_Proton"@en .
 # 
+# https://w3id.org/skgo/physci#Energy_density_spectrum
+<https://w3id.org/skgo/physci#Energy_density_spectrum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#Energy_density_spectrum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#spectrum> .
+# 
 # https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation
 <https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/sosa/Observation> .
@@ -2593,6 +2605,22 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#GRMHD_simulations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sweetontology.net/reprMathSolution/Simulation> .
 <https://w3id.org/skgo/physci#GRMHD_simulations> <https://w3id.org/skgo/physci#hasParameter> "the dimensionless spin a Jc GM2\n* º , where J and M are, respectively, the spin angular momentum and mass of\nthe black hole, and the net dimensionless magnetic flux over the\nevent horizon MRg\nf º F ( ˙ 2)1 2, where Φ and M˙ are the magnetic\nflux and mass flux (or accretion rate) across the horizon,\nrespectively."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/skgo/physci#GRMHD_simulations> <http://www.w3.org/2000/01/rdf-schema#label> "GRMHD_simulations"@en .
+# 
+# https://w3id.org/skgo/physci#GW150914
+<https://w3id.org/skgo/physci#GW150914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#GW150914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#Wave> .
+<https://w3id.org/skgo/physci#GW150914> <https://w3id.org/skgo/physci#hasSpectrum> <https://w3id.org/skgo/physci#Energy_density_spectrum> .
+# 
+# https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.nature.com/terms/Publication> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <https://w3id.org/skgo/physci#addressesResearchWork> <https://w3id.org/skgo/physci#Implication_of_Gravitational_wave> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://ns.nature.com/terms/doi> "DOI: 10.1103/PhysRevLett.116.131102"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://ns.nature.com/terms/issue> "PRL 116, 131102(2016"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://ns.nature.com/terms/publicationDate> "2016-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://ns.nature.com/terms/title> "GW150914: Implications for the Stochastic Gravitational-Wave Background\nfrom Binary Black Holes"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://purl.org/dc/terms/creator> <https://w3id.org/skgo/physci#B_P_Abbott> .
+<https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes> <http://purl.org/dc/terms/publisher> <https://w3id.org/skgo/physci#American_Physical_Society> .
 # 
 # https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path
 <https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2680,6 +2708,12 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#Hamiltonian_principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#principle> .
 <https://w3id.org/skgo/physci#Hamiltonian_principle> <http://www.w3.org/2000/01/rdf-schema#label> "Hamiltonian_principle"@en .
 # 
+# https://w3id.org/skgo/physci#Hanford_and_Livingston_detector
+<https://w3id.org/skgo/physci#Hanford_and_Livingston_detector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#Hanford_and_Livingston_detector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#Observer> .
+<https://w3id.org/skgo/physci#Hanford_and_Livingston_detector> <https://w3id.org/skgo/physci#detectFormation> <https://w3id.org/skgo/physci#Binary_Black_Holes> .
+<https://w3id.org/skgo/physci#Hanford_and_Livingston_detector> <https://w3id.org/skgo/physci#detectWave> <https://w3id.org/skgo/physci#GW150914> .
+# 
 # https://w3id.org/skgo/physci#Hermitian_Tensor
 <https://w3id.org/skgo/physci#Hermitian_Tensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#Hermitian_Tensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#ScientificMethod> .
@@ -2697,6 +2731,12 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#Horizon-scale_structures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> .
 <https://w3id.org/skgo/physci#Horizon-scale_structures> <https://w3id.org/skgo/physci#hasScientificProperty> <https://w3id.org/skgo/physci#Ring_structure_Property> .
 <https://w3id.org/skgo/physci#Horizon-scale_structures> <http://www.w3.org/2000/01/rdf-schema#label> "Horizon-scale_structures"@en .
+# 
+# https://w3id.org/skgo/physci#Implication_of_Gravitational_wave
+<https://w3id.org/skgo/physci#Implication_of_Gravitational_wave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#Implication_of_Gravitational_wave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#ResearchWork> .
+<https://w3id.org/skgo/physci#Implication_of_Gravitational_wave> <https://w3id.org/skgo/physci#argueFormation> <https://w3id.org/skgo/physci#Binary_Black_Holes> .
+<https://w3id.org/skgo/physci#Implication_of_Gravitational_wave> <https://w3id.org/skgo/physci#hasScenario> "unresovable events combine to createstochastic background"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 # 
 # https://w3id.org/skgo/physci#Infinitesimal_parallel_translations
 <https://w3id.org/skgo/physci#Infinitesimal_parallel_translations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2766,6 +2806,14 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#Kerr_metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#Kerr_metric> <http://www.w3.org/2000/01/rdf-schema#label> "Kerr_metric"@en .
 # 
+# https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/sosa/Observation> .
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <https://w3id.org/skgo/physci#hasObservatory> <https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO> .
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <https://w3id.org/skgo/physci#hasObserver> <https://w3id.org/skgo/physci#Hanford_and_Livingston_detector> .
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <https://w3id.org/skgo/physci#hasPhenomena> <https://w3id.org/skgo/physci#Gravitational_Waves> .
+<https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves> <https://w3id.org/skgo/physci#ObservationTime> "2015-10-14T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
 # https://w3id.org/skgo/physci#LIGO_detectors
 <https://w3id.org/skgo/physci#LIGO_detectors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#LIGO_detectors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#Observer> .
@@ -2777,6 +2825,10 @@ _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/skgo/
 <https://w3id.org/skgo/physci#Lagrangian_equation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/skgo/physci#Lagrangian_equation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#Equation> .
 <https://w3id.org/skgo/physci#Lagrangian_equation> <http://www.w3.org/2000/01/rdf-schema#label> "Lagrangian_equation"@en .
+# 
+# https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO
+<https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/physci#Observatory> .
 # 
 # https://w3id.org/skgo/physci#Lia_Medeiros
 <https://w3id.org/skgo/physci#Lia_Medeiros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

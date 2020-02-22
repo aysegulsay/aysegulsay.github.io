@@ -2686,12 +2686,22 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                            rdfs:label "American_Physical_Society"@en .
 
 
+###  https://w3id.org/skgo/physci#B_P_Abbott
+:B_P_Abbott rdf:type owl:NamedIndividual ,
+                     <http://xmlns.com/foaf/0.1/Person> .
+
+
 ###  https://w3id.org/skgo/physci#Binary_Black_Hole_Merger
 :Binary_Black_Hole_Merger rdf:type owl:NamedIndividual ,
                                    :ResearchWork ;
                           :argueFormation :massive_black_holes ;
                           :hasPurpose "we report the first direct detection of gravitational waves and the first direct observation of a binary black hole system merging to form a single black hole."^^rdfs:Literal ;
                           rdfs:label "Binary_Black_Hole_Merger"@en .
+
+
+###  https://w3id.org/skgo/physci#Binary_Black_Holes
+:Binary_Black_Holes rdf:type owl:NamedIndividual ,
+                             <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation> .
 
 
 ###  https://w3id.org/skgo/physci#Black_Hole
@@ -2923,6 +2933,11 @@ amplitudes and phases."""^^rdfs:Literal ;
                             rdfs:label "Elementary_Particle_Proton"@en .
 
 
+###  https://w3id.org/skgo/physci#Energy_density_spectrum
+:Energy_density_spectrum rdf:type owl:NamedIndividual ,
+                                  <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#spectrum> .
+
+
 ###  https://w3id.org/skgo/physci#Event_Horizon_Telescope_EHT_observation
 :Event_Horizon_Telescope_EHT_observation rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/ns/sosa/Observation> ;
@@ -2975,6 +2990,25 @@ f º F ( ˙ 2)1 2, where Φ and M˙ are the magnetic
 flux and mass flux (or accretion rate) across the horizon,
 respectively."""^^rdfs:Literal ;
                    rdfs:label "GRMHD_simulations"@en .
+
+
+###  https://w3id.org/skgo/physci#GW150914
+:GW150914 rdf:type owl:NamedIndividual ,
+                   <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#Wave> ;
+          :hasSpectrum :Energy_density_spectrum .
+
+
+###  https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes
+:GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes rdf:type owl:NamedIndividual ,
+                                                                                          <http://ns.nature.com/terms/Publication> ;
+                                                                                 :addressesResearchWork :Implication_of_Gravitational_wave ;
+                                                                                 <http://ns.nature.com/terms/doi> "DOI: 10.1103/PhysRevLett.116.131102"^^xsd:date ;
+                                                                                 <http://ns.nature.com/terms/issue> "PRL 116, 131102(2016"^^rdfs:Literal ;
+                                                                                 <http://ns.nature.com/terms/publicationDate> "2016-03-31"^^xsd:date ;
+                                                                                 <http://ns.nature.com/terms/title> """GW150914: Implications for the Stochastic Gravitational-Wave Background
+from Binary Black Holes"""^^rdfs:Literal ;
+                                                                                 <http://purl.org/dc/terms/creator> :B_P_Abbott ;
+                                                                                 <http://purl.org/dc/terms/publisher> :American_Physical_Society .
 
 
 ###  https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path
@@ -3084,6 +3118,13 @@ which describe this process."""^^rdfs:Literal ;
                        rdfs:label "Hamiltonian_principle"@en .
 
 
+###  https://w3id.org/skgo/physci#Hanford_and_Livingston_detector
+:Hanford_and_Livingston_detector rdf:type owl:NamedIndividual ,
+                                          :Observer ;
+                                 :detectFormation :Binary_Black_Holes ;
+                                 :detectWave :GW150914 .
+
+
 ###  https://w3id.org/skgo/physci#Hermitian_Tensor
 :Hermitian_Tensor rdf:type owl:NamedIndividual ,
                            :ScientificMethod ;
@@ -3104,6 +3145,13 @@ through summation with real coefficient."""^^rdfs:Literal ;
                                    <http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#structure> ;
                           :hasScientificProperty :Ring_structure_Property ;
                           rdfs:label "Horizon-scale_structures"@en .
+
+
+###  https://w3id.org/skgo/physci#Implication_of_Gravitational_wave
+:Implication_of_Gravitational_wave rdf:type owl:NamedIndividual ,
+                                            :ResearchWork ;
+                                   :argueFormation :Binary_Black_Holes ;
+                                   :hasScenario "unresovable events combine to createstochastic background"^^rdfs:Literal .
 
 
 ###  https://w3id.org/skgo/physci#Infinitesimal_parallel_translations
@@ -3207,6 +3255,15 @@ nature is still mysterious."""^^rdfs:Literal ;
              rdfs:label "Kerr_metric"@en .
 
 
+###  https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves
+:LIGO_detection_of_gravitional_waves rdf:type owl:NamedIndividual ,
+                                              <http://www.w3.org/ns/sosa/Observation> ;
+                                     :hasObservatory :Laser_Interferometer_Gravitational_Wave_Observatory_LIGO ;
+                                     :hasObserver :Hanford_and_Livingston_detector ;
+                                     :hasPhenomena :Gravitational_Waves ;
+                                     :ObservationTime "2015-10-14T00:00:00"^^xsd:dateTime .
+
+
 ###  https://w3id.org/skgo/physci#LIGO_detectors
 :LIGO_detectors rdf:type owl:NamedIndividual ,
                          :Observer ;
@@ -3219,6 +3276,11 @@ nature is still mysterious."""^^rdfs:Literal ;
 :Lagrangian_equation rdf:type owl:NamedIndividual ,
                               :Equation ;
                      rdfs:label "Lagrangian_equation"@en .
+
+
+###  https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO
+:Laser_Interferometer_Gravitational_Wave_Observatory_LIGO rdf:type owl:NamedIndividual ,
+                                                                   :Observatory .
 
 
 ###  https://w3id.org/skgo/physci#Lia_Medeiros

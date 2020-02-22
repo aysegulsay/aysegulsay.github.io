@@ -4133,6 +4133,9 @@
     "@value" : "Assumption"
   } ]
 }, {
+  "@id" : "https://w3id.org/skgo/physci#B_P_Abbott",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ]
+}, {
   "@id" : "https://w3id.org/skgo/physci#Binary_Black_Hole_Merger",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4146,6 +4149,9 @@
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "we report the first direct detection of gravitational waves and the first direct observation of a binary black hole system merging to form a single black hole."
   } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#Binary_Black_Holes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ]
 }, {
   "@id" : "https://w3id.org/skgo/physci#Black_Hole",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#formation" ],
@@ -4532,6 +4538,9 @@
     "@id" : "https://w3id.org/skgo/physci#Black_hole_properties"
   } ]
 }, {
+  "@id" : "https://w3id.org/skgo/physci#Energy_density_spectrum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#spectrum" ]
+}, {
   "@id" : "https://w3id.org/skgo/physci#Equation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
@@ -4665,6 +4674,40 @@
   "https://w3id.org/skgo/physci#hasParameter" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "the dimensionless spin a Jc GM2\n* º , where J and M are, respectively, the spin angular momentum and mass of\nthe black hole, and the net dimensionless magnetic flux over the\nevent horizon MRg\nf º F ( ˙ 2)1 2, where Φ and M˙ are the magnetic\nflux and mass flux (or accretion rate) across the horizon,\nrespectively."
+  } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#GW150914",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#Wave" ],
+  "https://w3id.org/skgo/physci#hasSpectrum" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Energy_density_spectrum"
+  } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#GW150914_Implications_for_Gravitational_wave_Background_from_binary_black_holes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ns.nature.com/terms/Publication" ],
+  "http://ns.nature.com/terms/doi" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "DOI: 10.1103/PhysRevLett.116.131102"
+  } ],
+  "http://ns.nature.com/terms/issue" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "PRL 116, 131102(2016"
+  } ],
+  "http://ns.nature.com/terms/publicationDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2016-03-31"
+  } ],
+  "http://ns.nature.com/terms/title" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "GW150914: Implications for the Stochastic Gravitational-Wave Background\nfrom Binary Black Holes"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://w3id.org/skgo/physci#B_P_Abbott"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/skgo/physci#American_Physical_Society"
+  } ],
+  "https://w3id.org/skgo/physci#addressesResearchWork" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Implication_of_Gravitational_wave"
   } ]
 }, {
   "@id" : "https://w3id.org/skgo/physci#Gaussian_spot_moving_on_a_circular_path",
@@ -4825,6 +4868,15 @@
     "@value" : "Hamiltonian_principle"
   } ]
 }, {
+  "@id" : "https://w3id.org/skgo/physci#Hanford_and_Livingston_detector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observer" ],
+  "https://w3id.org/skgo/physci#detectFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Binary_Black_Holes"
+  } ],
+  "https://w3id.org/skgo/physci#detectWave" : [ {
+    "@id" : "https://w3id.org/skgo/physci#GW150914"
+  } ]
+}, {
   "@id" : "https://w3id.org/skgo/physci#Hawking's_theorem",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
@@ -4857,6 +4909,16 @@
   } ],
   "https://w3id.org/skgo/physci#hasScientificProperty" : [ {
     "@id" : "https://w3id.org/skgo/physci#Ring_structure_Property"
+  } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#Implication_of_Gravitational_wave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#ResearchWork" ],
+  "https://w3id.org/skgo/physci#argueFormation" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Binary_Black_Holes"
+  } ],
+  "https://w3id.org/skgo/physci#hasScenario" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "unresovable events combine to createstochastic background"
   } ]
 }, {
   "@id" : "https://w3id.org/skgo/physci#Infinitesimal_parallel_translations",
@@ -4990,6 +5052,22 @@
     "@value" : "Kerr_metric"
   } ]
 }, {
+  "@id" : "https://w3id.org/skgo/physci#LIGO_detection_of_gravitional_waves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "https://w3id.org/skgo/physci#ObservationTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2015-10-14T00:00:00"
+  } ],
+  "https://w3id.org/skgo/physci#hasObservatory" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO"
+  } ],
+  "https://w3id.org/skgo/physci#hasObserver" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Hanford_and_Livingston_detector"
+  } ],
+  "https://w3id.org/skgo/physci#hasPhenomena" : [ {
+    "@id" : "https://w3id.org/skgo/physci#Gravitational_Waves"
+  } ]
+}, {
   "@id" : "https://w3id.org/skgo/physci#LIGO_detectors",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observer" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5009,6 +5087,9 @@
     "@language" : "en",
     "@value" : "Lagrangian_equation"
   } ]
+}, {
+  "@id" : "https://w3id.org/skgo/physci#Laser_Interferometer_Gravitational_Wave_Observatory_LIGO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/skgo/physci#Observatory" ]
 }, {
   "@id" : "https://w3id.org/skgo/physci#Lia_Medeiros",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
